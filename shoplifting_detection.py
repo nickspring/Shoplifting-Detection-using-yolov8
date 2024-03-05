@@ -64,7 +64,7 @@ while True:
                 status = not_shoplifting_status
         cv2.putText(frame, status, (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.7, status_color, 2)
 
-    cv2.imshow(frame_name, frame)
+    #cv2.imshow(frame_name, frame)
 
     if cv2.waitKey(1) & 0xFF == ord(quit_key):
         break
